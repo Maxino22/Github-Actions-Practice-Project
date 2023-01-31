@@ -13,7 +13,7 @@ jobs:
       - name: Install dependancies
         run: npm ci
       - name: Lint project
-        run: npm lint
+        run: npm run lint
       - name: Run Tests
         run: npm test
   build:
